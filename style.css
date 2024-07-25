@@ -6,7 +6,7 @@
 
 #navigation-bar{
     display: flex;
-    background-color: rgb(190, 231, 243);
+    background-color: rgb(198, 198, 255);
 }
 .navigation{
     justify-content: start;
@@ -92,6 +92,83 @@
 .aboutus p{
     padding-top: 30px;
     font-weight: 5px;
+}
+.div-box{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 0px 120px;
+}
+.box{
+    box-shadow: 2px 2px 2px 2px black ;
+    border: solid gray 0px;
+    border-radius: 10px;
+}
+.div-box img{
+    height: 60px;
+   margin: 20px;
+}
+.box h2{
+    padding: 20px;
+}
+.box-1 p{
+    margin-top: 50px;
+    padding: 20px;
+}
+.box-2 p{
+    margin-top: 20px;
+    padding: 20px;
+}
+.box-3 p{
+    margin-top: 50px;
+    padding: 20px;
+}
+/*container-4 section*/
+#container-4 h1{
+    padding: 50px;
+}
+.content-1{
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 240px;
+    color: white;
+    background-color: rgb(37, 37, 104);
+}
+.content-1 p{
+    font-size: 40px;
+    padding: 80px 0px;
+}
+.content-1 button{
+    border: solid 0px;
+    background-color: orange;
+    height: 50px;
+    margin-top: 80px;
+    width: 150px;
+    border-radius: 40px;
+}
+/*footer section*/
+#footer{
+    background-color: rgb(181, 181, 255);
+    height: 300px;
+}
+.footer-content-1{
+    padding-top: 40px;
+}
+.icon-logo{
+    padding-top: 100px;
+}
+.icon-logo a{
+    padding-right: 20px;
+}
+.contactus{
+    padding-top: 90px;
+}
+.footer-content{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
 }
 
 
