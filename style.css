@@ -1,0 +1,98 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+/*navigatin-part*/
+
+#navigation-bar{
+    display: flex;
+    background-color: rgb(190, 231, 243);
+}
+.navigation{
+    justify-content: start;
+    padding-left: 20px;
+    padding-right: 220px;
+}
+.nav_items{
+    display: flex;
+    gap: 2rem;
+    padding-top: 20px;
+}
+.nav_items a{
+    text-decoration: none;
+    color: black;
+}
+.register{
+    display: flex;
+    padding-top: 20px;
+    padding-left: 400px;
+    gap: 10px;
+}
+.log-in button{
+    height: 30px;
+    width: 50px;
+    background-color: rgb(181, 181, 255);
+    border: none;
+    border-radius: 20px;
+}
+.sign-in button{
+    height: 30px;
+    width: 80px;
+    background-color: rgb(105, 105, 231);
+    border: none;
+    border-radius: 20px;
+}
+/*main*/
+#Main{
+    margin-bottom: 20px;
+}
+.main-container{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+.picture{
+    padding-top: 160px;
+}
+.text{
+    font-size: 40px;
+    padding-top: 120px;
+}
+.container-1{
+    display: flex;
+    font-size: 28px;
+    padding-top: 70px;
+}
+.container-1 p{
+    padding-top: 13px;
+}
+.container-2{
+    display: flex;
+    font-size: 28px;
+    padding-top: 35px;
+}
+.container-2 p{
+    padding-top: 13px;
+}
+.container-3{
+    display: flex;
+    font-size: 28px;
+    padding-top: 35px;
+}
+.container-3 p{
+    padding-top: 13px;
+}
+
+/*aboutus*/
+.aboutus{
+    text-align: center;
+    padding-top: 60px;
+    margin-bottom: 30px;
+}
+.aboutus p{
+    padding-top: 30px;
+    font-weight: 5px;
+}
+
+
+
